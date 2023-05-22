@@ -4,11 +4,21 @@
     
 </head>
 <body>
-    <div id="main">
-        <label>INSIRA TEXTO AQUI: </label>
-        <textarea rows="50" cols="50">
+    <div id="main" >
+        <div id="text_input" class="text">
+            <label>INSIRA TEXTO AQUI: </label>
+            <textarea rows="50" cols="50" id="txta_input">   
+            </textarea>
+        </div>
 
-        </textarea>
+        <div id="text_ouput" class="text">
+            <label>SAÍDA TEXTO: </label>
+            <textarea rows="50" cols="50">   
+            </textarea>
+        </div>
+
+        <button class="text" onclick="aplicaLexico()">APLICAR</button>
+        
     </div>
     <script src="jquery.js"></script>
     <script src="script.js"></script>
